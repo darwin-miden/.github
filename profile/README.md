@@ -30,7 +30,7 @@ The [Milestone 1 Architecture Specification](https://github.com/darwin-miden/dar
 
 ## Roadmap
 
-- **M1 (in progress)** — Miden core layer on testnet: three baskets, Flow A end-to-end, Pragma integration, AggLayer bridge primitives.
+- **M1 (in progress)** — Miden core layer on testnet: three baskets, Flow A end-to-end, Pragma integration, AggLayer bridge primitives. See the [progress log](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-progress.md).
 - **M2** — Near Intent + Miden Guardian relay wallet for the ETH-user UX, automated rebalancing on the in-protocol Miden DEX, full Flow C (RedeemNote + AggLayer round-trip), third-party audit.
 - **M3** — Frontend at `darwin.xyz`, mainnet deployment, public launch.
 
