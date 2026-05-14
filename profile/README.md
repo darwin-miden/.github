@@ -13,7 +13,10 @@ Darwin lets users deposit underlying crypto assets and receive a single basket t
 
 ## Documentation
 
-The [Milestone 1 Architecture Specification](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-architecture-spec.md) is the technical reference for the Miden core layer.
+- **[M1 Status](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-status.md)** — one-page audit of every M1 deliverable vs what is actually live on testnet. Start here.
+- [Milestone 1 Architecture Specification](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-architecture-spec.md) — the technical reference for the Miden core layer.
+- [Progress log](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-progress.md) — every commit + on-chain transaction since scaffolding.
+- [Test report](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-test-report.md) — testnet transactions table, integration test plan.
 
 ## Repositories
 
