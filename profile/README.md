@@ -19,18 +19,18 @@ The [Milestone 1 Architecture Specification](https://github.com/darwin-miden/dar
 
 | Repo | Purpose |
 |---|---|
-| [`darwin-protocol`](https://github.com/darwin-miden/darwin-protocol) | Core MASM: Protocol Account, basket faucets, asset faucets, note scripts |
-| [`darwin-sdk`](https://github.com/darwin-miden/darwin-sdk) | Client SDK (Rust + TypeScript) wrapping `miden-client` and `miden-agglayer` |
-| [`darwin-baskets`](https://github.com/darwin-miden/darwin-baskets) | Versioned basket manifests and Rust loader |
-| [`darwin-oracle-adapter`](https://github.com/darwin-miden/darwin-oracle-adapter) | Pragma Oracle adapter and signed-attestation fallback |
-| [`darwin-bridge-adapter`](https://github.com/darwin-miden/darwin-bridge-adapter) | AggLayer bridge integration (B2AGG, CLAIM) and L1 wrapper-ERC20 stubs |
-| [`darwin-infra`](https://github.com/darwin-miden/darwin-infra) | Local dev stack, CI workflows, deployment scripts |
-| [`darwin-docs`](https://github.com/darwin-miden/darwin-docs) | Architecture specs, litepaper, integration guides |
-| [`darwin-frontend`](https://github.com/darwin-miden/darwin-frontend) | Frontend at `darwin.xyz` (M3) |
+| [`darwin-protocol`](https://github.com/darwin-miden/darwin-protocol) | Core MASM: Protocol Account, basket faucets, asset faucets, note scripts. 76 tests, all green. |
+| [`darwin-sdk`](https://github.com/darwin-miden/darwin-sdk) | Client SDK (Rust + TypeScript) wrapping `miden-client` and `miden-agglayer`; ships an off-chain rebalance planner. 18 tests. |
+| [`darwin-baskets`](https://github.com/darwin-miden/darwin-baskets) | Versioned basket manifests, Rust loader, and the authoritative testnet inventory (`state/testnet.toml`). 18 tests. |
+| [`darwin-oracle-adapter`](https://github.com/darwin-miden/darwin-oracle-adapter) | Pragma Oracle adapter and signed-attestation fallback. 11 tests. |
+| [`darwin-bridge-adapter`](https://github.com/darwin-miden/darwin-bridge-adapter) | AggLayer bridge integration (B2AGG, CLAIM) and L1 wrapper-ERC20. 13 Foundry tests. |
+| [`darwin-infra`](https://github.com/darwin-miden/darwin-infra) | Local dev stack and reproducible testnet deployment scripts. |
+| [`darwin-docs`](https://github.com/darwin-miden/darwin-docs) | Architecture specs, getting-started guide, progress log, test report. |
+| [`darwin-frontend`](https://github.com/darwin-miden/darwin-frontend) | Frontend at `darwin.xyz` (M3); TypeScript rebalance planner already mirrors the Rust SDK. |
 
 ## Roadmap
 
-- **M1 (in progress)** — Miden core layer on testnet: three baskets, Flow A end-to-end, Pragma integration, AggLayer bridge primitives. See the [progress log](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-progress.md).
+- **M1 (in progress)** — Miden core layer on testnet: three baskets, Flow A end-to-end, Pragma integration, AggLayer bridge primitives. 10 Darwin accounts deployed on public Miden testnet (4 asset faucets, 3 basket-token faucets, 3 protocol controllers) plus a user wallet bootstrapped with all four constituents for Flow A. See the [progress log](https://github.com/darwin-miden/darwin-docs/blob/main/docs/m1-progress.md).
 - **M2** — Near Intent + Miden Guardian relay wallet for the ETH-user UX, automated rebalancing on the in-protocol Miden DEX, full Flow C (RedeemNote + AggLayer round-trip), third-party audit.
 - **M3** — Frontend at `darwin.xyz`, mainnet deployment, public launch.
 
