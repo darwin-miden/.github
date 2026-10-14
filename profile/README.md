@@ -1,10 +1,7 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./darwin-logo-white.svg">
-    <img src="./darwin-logo-black.svg" alt="Darwin" width="640">
-  </picture>
-</p>
+<img src="darwin-banner.png" alt="Darwin" width="100%">
 
-<h3 align="center">One token, a whole strategy.</h3>
+[![Website](https://img.shields.io/badge/website-darwin.market-ff6a3d?style=flat)](https://darwin.market)
+[![Docs](https://img.shields.io/badge/docs-Darwin-ff6a3d?style=flat)](https://docs.darwin.market)
+[![X](https://img.shields.io/badge/X-@darwin__market-ff6a3d?style=flat&logo=x&logoColor=white)](https://x.com/darwin_market)
 
-<p align="center">Structured investing, onchain. One trade buys the whole basket, held privately in your own wallet.</p>
+### One token, a whole strategy.
